@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/admixProject/static/css/main.11fdd35a.chunk.css",
+    "main.js": "/admixProject/static/js/main.61d33e0e.chunk.js",
+    "main.js.map": "/admixProject/static/js/main.61d33e0e.chunk.js.map",
+    "runtime-main.js": "/admixProject/static/js/runtime-main.5061db8a.js",
+    "runtime-main.js.map": "/admixProject/static/js/runtime-main.5061db8a.js.map",
+    "static/js/2.4189896a.chunk.js": "/admixProject/static/js/2.4189896a.chunk.js",
+    "static/js/2.4189896a.chunk.js.map": "/admixProject/static/js/2.4189896a.chunk.js.map",
+    "index.html": "/admixProject/index.html",
+    "precache-manifest.748fce8989b04efb6f821aa88ccba20a.js": "/admixProject/precache-manifest.748fce8989b04efb6f821aa88ccba20a.js",
+    "service-worker.js": "/admixProject/service-worker.js",
+    "static/css/main.11fdd35a.chunk.css.map": "/admixProject/static/css/main.11fdd35a.chunk.css.map",
+    "static/js/2.4189896a.chunk.js.LICENSE": "/admixProject/static/js/2.4189896a.chunk.js.LICENSE",
+    "static/media/logo.png": "/admixProject/static/media/logo.865591b1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5061db8a.js",
+    "static/js/2.4189896a.chunk.js",
+    "static/css/main.11fdd35a.chunk.css",
+    "static/js/main.61d33e0e.chunk.js"
+  ]
+}
