@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/admix-project/static/css/main.11fdd35a.chunk.css",
-    "main.js": "/admix-project/static/js/main.5236aa33.chunk.js",
-    "main.js.map": "/admix-project/static/js/main.5236aa33.chunk.js.map",
-    "runtime-main.js": "/admix-project/static/js/runtime-main.0a82c7e6.js",
-    "runtime-main.js.map": "/admix-project/static/js/runtime-main.0a82c7e6.js.map",
-    "static/js/2.4189896a.chunk.js": "/admix-project/static/js/2.4189896a.chunk.js",
-    "static/js/2.4189896a.chunk.js.map": "/admix-project/static/js/2.4189896a.chunk.js.map",
-    "index.html": "/admix-project/index.html",
-    "precache-manifest.7cadf063abe3544000366b3208301d73.js": "/admix-project/precache-manifest.7cadf063abe3544000366b3208301d73.js",
-    "service-worker.js": "/admix-project/service-worker.js",
-    "static/css/main.11fdd35a.chunk.css.map": "/admix-project/static/css/main.11fdd35a.chunk.css.map",
-    "static/js/2.4189896a.chunk.js.LICENSE": "/admix-project/static/js/2.4189896a.chunk.js.LICENSE",
-    "static/media/logo.png": "/admix-project/static/media/logo.865591b1.png"
+    "main.css": "/admix/static/css/main.11fdd35a.chunk.css",
+    "main.js": "/admix/static/js/main.a9a13201.chunk.js",
+    "main.js.map": "/admix/static/js/main.a9a13201.chunk.js.map",
+    "runtime-main.js": "/admix/static/js/runtime-main.1b51753c.js",
+    "runtime-main.js.map": "/admix/static/js/runtime-main.1b51753c.js.map",
+    "static/js/2.4189896a.chunk.js": "/admix/static/js/2.4189896a.chunk.js",
+    "static/js/2.4189896a.chunk.js.map": "/admix/static/js/2.4189896a.chunk.js.map",
+    "index.html": "/admix/index.html",
+    "precache-manifest.37efabbc8646dda79d881cf0c9a96ec9.js": "/admix/precache-manifest.37efabbc8646dda79d881cf0c9a96ec9.js",
+    "service-worker.js": "/admix/service-worker.js",
+    "static/css/main.11fdd35a.chunk.css.map": "/admix/static/css/main.11fdd35a.chunk.css.map",
+    "static/js/2.4189896a.chunk.js.LICENSE": "/admix/static/js/2.4189896a.chunk.js.LICENSE",
+    "static/media/logo.png": "/admix/static/media/logo.865591b1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a82c7e6.js",
+    "static/js/runtime-main.1b51753c.js",
     "static/js/2.4189896a.chunk.js",
     "static/css/main.11fdd35a.chunk.css",
-    "static/js/main.5236aa33.chunk.js"
+    "static/js/main.a9a13201.chunk.js"
   ]
 }
