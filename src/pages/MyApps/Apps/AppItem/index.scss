@@ -1,0 +1,134 @@
+@import "../../../../styles/variables.scss";
+
+.appItem {
+  display: flex;
+  align-items: center;
+  padding: 13px 25px;
+  background: $white;
+  font-weight: 500;
+  box-shadow: 0px 2px 2px 0px rgba(189, 195, 201, 0.37);
+  margin-bottom: 5px;
+  &.Off {
+    background: $grayF9;
+    padding: 15px 25px;
+  }
+
+  .appMainInfo {
+    display: flex;
+    align-items: center;
+    width: 40%;
+
+    .appIcon {
+      width: 30px;
+      height: 30px;
+      margin-right: 24px;
+    }
+    @media #{$small} {
+      width: 100%;
+    }
+  }
+
+  .appNumbersInfo {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    .margin {
+      margin: 0 0 0 10px;
+    }
+
+    @media #{$small} {
+      width: 100%;
+    }
+  }
+
+  .appAdditionalInfo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40%;
+
+    .appButtons {
+      display: flex;
+      align-items: center;
+      position: relative;
+      .appItemEdit {
+        position: absolute;
+        top: -35px;
+        left: -5px;
+        padding: 8px 12px;
+        background: $darkBlue;
+        color: $white;
+        font-size: 13px;
+        cursor: pointer;
+
+        ::after {
+          content: "";
+          display: block;
+          position: absolute;
+          left: 19px;
+          top: 31px;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 4px 4px 0 4px;
+          border-color: $darkBlue transparent transparent transparent;
+        }
+      }
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 34px;
+        width: 34px;
+        background: $gray;
+        margin-right: 5px;
+        img {
+          width: 13px;
+          height: 13px;
+        }
+      }
+    }
+
+    .appStatuses {
+      display: flex;
+      align-items: center;
+      color: $gray8A;
+      background: $gray;
+      margin: 0 15px 0 10px;
+      height: 34px;
+      padding: 0 2px;
+      .appStatus {
+        padding: 10px 15px;
+        font-size: 10px;
+        &.selected {
+          background: $white;
+          height: 30px;
+          &.red {
+            color: $red;
+          }
+          &.yellow {
+            color: $yellow;
+          }
+          &.green {
+            color: $green;
+          }
+        }
+      }
+      @media #{$small} {
+        width: 100%;
+      }
+    }
+
+    .more {
+      img {
+        display: flex;
+        align-items: center;
+        width: 15px;
+      }
+    }
+  }
+
+  @media #{$small} {
+    flex-direction: column;
+  }
+}

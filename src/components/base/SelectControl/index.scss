@@ -1,0 +1,28 @@
+@import '../../../styles/variables.scss';
+
+.customSelect {
+    .MuiSvgIcon-root {
+        color: $darkBlue;
+    }
+    .MuiOutlinedInput-root,
+    .MuiSelect-select:focus {
+        position: relative;
+        border-radius: 0;
+        background: #fff;
+    }
+    .MuiOutlinedInput-input {
+        padding: 0 15px;
+        font-size: 12px;
+        color: $darkBlue;
+        height: 32px;
+    }
+    .MuiInputLabel-outlined {
+        top: -10px;
+        font-size: 12px;
+        font-weight: 500;
+        color: #abb7c0;
+    }
+    .MuiOutlinedInput-notchedOutline {
+        border: 0;
+    }
+}

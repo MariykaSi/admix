@@ -1,0 +1,16 @@
+@import "../../../styles/variables.scss";
+
+.margin {
+  min-width: 30px;
+  text-align: center;
+  font-size: 10px;
+  color: $white;
+  background: $green;
+  height: 15px;
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin: 5px 0 0 5px;
+  &.marginDecrease {
+    background: $red;
+  }
+}
