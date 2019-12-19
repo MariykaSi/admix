@@ -2,7 +2,7 @@
     "name": "admix-project",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://mariykasi.github.io/admixProject/",
+    "homepage": ".",
     "dependencies": {
         "@material-ui/core": "^4.8.0",
         "@material-ui/icons": "^4.5.1",
