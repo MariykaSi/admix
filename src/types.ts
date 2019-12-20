@@ -4,6 +4,11 @@ export interface INavItem {
     image: String;
 }
 
+export interface ISelectOption {
+    label: String;
+    value: String;
+}
+
 export interface IDataItem {
     id: Number;
     name: String;

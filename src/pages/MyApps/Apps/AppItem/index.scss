@@ -2,6 +2,7 @@
 
 .appItem {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 13px 25px;
   background: $white;
@@ -23,8 +24,10 @@
       height: 30px;
       margin-right: 24px;
     }
-    @media #{$small} {
+
+    @media #{$medium} {
       width: 100%;
+      margin-bottom: 10px;
     }
   }
 
@@ -36,8 +39,13 @@
       margin: 0 0 0 10px;
     }
 
+    @media #{$medium} {
+      width: 30%;
+    }
+
     @media #{$small} {
       width: 100%;
+      margin-bottom: 10px;
     }
   }
 
@@ -114,9 +122,6 @@
           }
         }
       }
-      @media #{$small} {
-        width: 100%;
-      }
     }
 
     .more {
@@ -125,6 +130,15 @@
         align-items: center;
         width: 15px;
       }
+    }
+
+    @media #{$medium} {
+      width: 70%;
+    }
+
+    @media #{$small} {
+      width: 100%;
+      justify-content: flex-start;
     }
   }
 

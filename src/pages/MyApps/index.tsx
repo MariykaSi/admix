@@ -13,6 +13,7 @@ import {
     myAppsDataSelector,
     loadingSelector
 } from './redux';
+import { ALL_DATA_OPTIONS } from '../../constants/global';
 
 const MyApps: React.FC = () => {
     const dispatch = useDispatch();
@@ -34,7 +35,7 @@ const MyApps: React.FC = () => {
                     <div className="wrapper">
                         <div className="overView">
                             <h2>Overview</h2>
-                            <SelectControl />
+                            <SelectControl options={ALL_DATA_OPTIONS} />
                         </div>
                         <Data data={data} />
                         <Apps apps={apps} />

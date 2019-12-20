@@ -1,5 +1,5 @@
 import React from 'react';
-import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
+import { createStyles, makeStyles } from '@material-ui/core/styles';
 
 import './index.scss';
 
@@ -7,7 +7,13 @@ import InputLabel from '@material-ui/core/InputLabel';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
 
-const useStyles = makeStyles((theme: Theme) =>
+import { ISelectOption } from '../../../types';
+
+interface ISelectControlProps {
+    options: ISelectOption[];
+}
+
+const useStyles = makeStyles(() =>
     createStyles({
         formControl: {
             minWidth: 210,
@@ -16,7 +22,7 @@ const useStyles = makeStyles((theme: Theme) =>
     })
 );
 
-const SelectControl: React.FC = () => {
+const SelectControl = ({ options }: ISelectControlProps) => {
     const classes = useStyles();
     return (
         <FormControl
@@ -33,10 +39,11 @@ const SelectControl: React.FC = () => {
                     id: 'outlined-data-native-simple'
                 }}
             >
-                <option value="" />
-                <option value={10}>Data 1</option>
-                <option value={20}>Data 2</option>
-                <option value={30}>Data 3</option>
+                {options.map(({ value, label }, i) => (
+                    <option value={`${value}`} key={i}>
+                        {label}
+                    </option>
+                ))}
             </Select>
         </FormControl>
     );
